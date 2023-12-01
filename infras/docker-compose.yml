@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+
+  template-project:
+    container_name: template-project
+    image: localhost/template-project:latest
+    build:
+      context: ..
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    env_file:
+      - .env

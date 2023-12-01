@@ -1,0 +1,11 @@
+node_modules
+*.log
+.github
+.example.env
+.gitignore
+Dockerfile
+README.md
+infras
+.ideas
+package-lock.json
+yarn.lock
